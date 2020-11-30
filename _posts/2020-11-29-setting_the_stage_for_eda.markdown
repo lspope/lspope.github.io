@@ -21,9 +21,9 @@ After you’ve done some background research into your data and have a better id
 
 ## Step 2 -  Data Cleaning
 No matter the source of your data set, you should not make any assumptions about the data being clean and ready to analyze.  Organize your code to have a separate data cleaning module. For example, I create a separate Jupyter notebook with all of my  data cleaning code. Load in your data set and pop the hood for the following inspections:
-Duplicate Check - check for both duplicate rows and duplicate id
-Null Value Detection and Handling
-Zero Value Detection and Handling
+* Duplicate Check - check for duplicate rows (and, if they exist, duplicate ids)
+* Null Value Detection and Handling
+* Zero Value Detection and Handling
 
 
 ## Step 3 - Data Preprocessing
